@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="artgallery.css">
+    <script src="https://kit.fontawesome.com/8c00576388.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-image:url('../images/art48.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+
+        div.below{
+            width:1030px;
+            height:488px;
+            margin-top:4%;
+            margin-left:auto;
+            margin-right: auto;
+              background-color:black;
+            opacity:0.9;
+            padding:50px;
+            border-radius:5px;
+        }
+
+        .below label{
+            display:inline-block;
+            width:200px;
+        }
+
+        .below form{
+            color:cyan;
+            width:100%;
+            padding:10px;
+            font-size:15px;
+            line-height: 15px;
+        }
+
+        #wlink{
+            text-decoration:none;
+            background-color:#03fc90;
+            color:black;
+            padding:8px;
+            width:200px;
+            font-size:15px;
+            border-radius: 5px;
+        }
+
+        #wlink:hover{
+            text-decoration:none;
+            background-color:cyan;
+            color:black;
+            font-size: 15px;
+        }
+
+        .below input{
+            background-color:white;
+        }
+
+        input,select
+        {
+            border-radius: 5px;
+            width:30%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>  
+       <nav>
+          <div class="title">PICTURE PERFECT STUDIO</div>
+          <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li>
+                <a href=" babyphotoshoot.html" >GALLERY<i class="fa fa-caret-down"></i></a>
+                <ul>
+                   <li><a href="videos.html">VIDEOS</a></li>
+                   <li>
+                      <label for="btn-2" class="second">IMAGES</label>
+                      <a href="babyphotoshoot.html">IMAGES<span class="fas fa-caret-down"></span></a>
+                      <ul>
+                         <li><a href="babyphotoshoot.html">BABY PHOTOSHOOT</a></li>
+                         <li><a href="weddingphotoshoot.html">WEDDING PHOTOSHOOT</a></li>
+                         <li><a href="friendsandfamily.html">FRIENDS AND FAMILY </a></li>
+                         <li><a href="landscapephotography.html">LANDSCAPE PHOTOS</a></li>
+                      </ul>
+                   </li>
+                </ul>
+             </li>
+             <li><a style="color:#03fc90;" href="bookings.html">BOOKINGS</a></li>
+             <li><a href="about.html">ABOUT</a></li>
+          </ul>
+       </nav>
+    </header>
+    <div class="below">
+        <h4 style="color:#03fc90;font-size: 16px;text-align:center;"><u>BOOK A SESSION</u></h4>
+        <form>
+            <label for="name"id="font">NAME:</label>
+            <input type="text" id="name" name="name" ><br><br>
+            <label for="email" id="font">EMAIL ID:</label>
+            <input type="email" id="email" name="email" ><br><br>
+            <label for="phoneno" id="font">PHONE NUMBER:</label>
+            <input type="tel" id="phoneno" name="phoneno" ><br><br>
+            <label for="date" id="font">SELECT A DATE:</label>
+            <input type="date" id="date" name="date" ><br><br>
+            <label for="time" id="font">SELECT A TIME:</label>
+            <input type="time" id="time" name="time" ><br><br>
+            <label for="klang">SELECT AN EVENT:</label>
+            <select required>
+                <option value="" disabled selected hidden>select an event</option>
+                <option>BABY PHOTOSHOOT</option>
+                <option>WEDDING PHOTOSHOOT</option>
+                <option>FRIENDS AND FAMILY PHOTOSHOOT</option>
+                <option>OTHERS</option>
+            </select><br><br>
+            <label for="details" id="font">DETAILS:</label>
+            <textarea rows="2" cols="60" id="details" name="details" placeholder="Additional details"></textarea><br><br><br><br>
+            <center><input type="submit" class="clink" id="wlink" value="SUBMIT"></center>
+        </form>
+    </div>
+</body>
+</html>

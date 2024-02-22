@@ -1,0 +1,97 @@
+div.imagebg{
+    height:488px;
+    background-color:black;
+    opacity:0.9;
+    padding:50px;
+    border-radius:5px;
+    width: auto;
+    margin-top: 3%;
+    margin-left:29%;
+    margin-right:4%;
+}
+    
+div.gallery{
+    border:2px solid cyan;
+    margin:25px;
+    margin-top:10px;
+    display:inline-block;
+}
+    
+div.gallery img{
+    width:250px;
+    height:150px;
+    overflow:hidden;
+}
+    
+div.gallery video{
+    width:250px;
+    height:150px;
+    overflow:hidden;
+}
+    
+.sidebar{
+    position: absolute;
+    width: 23%;
+    top: 10%;
+    left:15%;
+    transform: translate(-50%, -50%);
+    line-height: 76px;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+    
+.sidebar ul{
+    position: absolute;
+    background: #1b1b1b;
+    list-style: none;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+    
+.sidebar ul li{
+    color: white;
+    font-size: 17px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+    
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+    
+.sidebar ul li a:hover{
+    color: cyan;
+}
+    
+.sidebar ul ul{
+    position: static;
+}
+    
+.sidebar ul ul li{
+    line-height:30px;
+    padding-left:30px;
+    border-bottom: none;
+}
+    
+.sidebar ul ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+}
+    
+a{
+    
+    font-size: 20px;
+    font-weight: 900;
+    
+  }
+.sidebar .fas{
+    margin-right: 10px;
+    margin-top: 24px;
+}
